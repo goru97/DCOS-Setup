@@ -1,3 +1,9 @@
+<p align="center">
+ <img src="https://raw.githubusercontent.com/goru97/DCOS-Setup/master/logos/rackspace-logo.png" height="150" align=center>
+</p>
+<p align="center">
+ <img src="https://raw.githubusercontent.com/goru97/DCOS-Setup/master/logos/dcos-logo.png" height="150" align=center>
+</p>
 # DCOS-Setup (Using Rackspace cloud)
 Setup DC/OS cluster on Rackspace cloud / on-metal servers.
 
