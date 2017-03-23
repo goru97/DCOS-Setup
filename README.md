@@ -44,7 +44,8 @@ On each cluster (bootstrap node isn’t the part of cluster) node, do the follow
 ### Run the following commands on all the nodes (including bootstrap) to install docker services:
 
 - Enable OverlayFS:
-  - ``` sudo tee /etc/modules-load.d/overlay.conf <<-'EOF'
+  - ``` 
+      sudo tee /etc/modules-load.d/overlay.conf <<-'EOF'
       overlay
       EOF ```
       
