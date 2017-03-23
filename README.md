@@ -130,7 +130,8 @@ SSH into your bootstrap node and perform the following steps:
      #!/usr/bin/env bash
      set -o nounset -o errexit
      export PATH=/usr/sbin:/usr/bin:$PATH
-     echo $(ifconfig | grep inet | grep -Eo '10\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' ```
+     echo $(ifconfig | grep inet | grep -Eo '10\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}' 
+     ```
      
 - Download the DC/OS installer
   - I am using the 1.9-RC2 version, you can use the stable release if you like.
