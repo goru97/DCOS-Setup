@@ -54,7 +54,8 @@ On each cluster (bootstrap node isn’t the part of cluster) node, do the follow
   - ``` 
       sudo tee /etc/modules-load.d/overlay.conf <<-'EOF'
       overlay
-      EOF ```
+      EOF 
+      ```
       
 - Reboot to reload kernel modules:
   - ``` reboot ```
@@ -68,7 +69,8 @@ On each cluster (bootstrap node isn’t the part of cluster) node, do the follow
     enabled=1
     gpgcheck=1
     gpgkey=https://yum.dockerproject.org/gpg
-    EOF ```
+    EOF 
+    ```
     
 - Configure systemd to run the Docker Daemon with OverlayFS
   - ```
@@ -76,7 +78,8 @@ On each cluster (bootstrap node isn’t the part of cluster) node, do the follow
     [Service]
     ExecStart=
     ExecStart=/usr/bin/dockerd --storage-driver=overlay
-    EOF ```
+    EOF 
+    ```
     
 - Install the Docker engine, daemon and service
   - ``` sudo yum install -y docker-engine-1.13.1 ```
