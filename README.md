@@ -6,7 +6,7 @@
 </p>
 
 # DCOS-Setup (Using Rackspace cloud)
-Setup DC/OS cluster on Rackspace cloud / on-metal servers.
+Setup DC/OS cluster on Rackspace cloud / on-metal servers with CentOS 7.
 
 ## System Components
 
